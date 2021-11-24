@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="RegisterServlet" method="get">
+<table>
+	<tr>
+			<td>Full Name</td>
+			<td><input type="text" name="uname"></td>
+	</tr>
+	<tr>
+			<td>Email</td>
+			<td><input type="email" name="uemail"></td>
+	</tr>
+	<tr>
+			<td>Password</td>
+			<td><input type="password" name="psw"></td>
+	</tr>
+	<tr>
+			<td>Gender</td>
+			<td>M<input type="radio"name="gender"value="M"></td>
+			
+			<td>F<input type="radio"name="gender"value="F">
+			</td>
+	</tr>
+	<tr>
+			<td>Address</td>
+			<td><textarea rows="5" cols="22"name="address"></textarea></td>
+	</tr>
+	<tr>
+			<td>Designation</td>
+			<td>
+				<select name="desig">
+					<option></option>
+					<option>Developer</option>
+					<option>Tester</option>
+					<option>DBA</option>
+				</select>>
+			</td>
+	</tr>
+	<tr>
+			<td>Date of Birth</td>
+			<td><input type="date" name="dob"></td>
+	</tr>
+	<tr>
+			
+			<td><input type="submit" value="Register"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
